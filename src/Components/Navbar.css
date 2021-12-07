@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+*{
+  font-family: Alice, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+
+}
+.hw{
+      height: 110px;
+   }
+.Navbar{
+      position: fixed;
+      top:0;
+      background-color:black;
+      width: 100%;
+      height: 110px;
+      font-family: 'Alice', serif;  
+      display: flex;
+      z-index: 99999999;
+  }
+.Navbar .rightside{
+      flex: 75%;
+      display: flex;
+      padding-right: 10px;
+      align-items: center;
+      flex-direction: row-reverse;
+      justify-items: center;
+    
+    }
+.Navbar .rightside .links{
+      max-height: 80px;
+    }
+.Navbar .rightside button{
+      display: none;
+      background-color: #000000;
+  color: #dd9933;
+      margin-left: 20px;
+    }
+.Navbar .rightside #hidden{
+      display: flex;
+    }
+.Navbar .rightside .links a {
+    text-decoration: none;
+    color: #dd9933;
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    justify-content: center;
+    border: 2px solid black;
+    }
+.Navbar .rightside .links a:hover {
+      border-radius:8px;
+      border: 2px solid #dd9933;
+      padding: 10px 20px;
+    } 
+.btnn {
+      border: 2px solid #dd9933;
+      padding: 10px 20px !important;
+      border-radius: 8px;
+      margin-left: 5px;
+      color: black !important;
+      background-color: #dd9933;
+  }
+.btnn:hover {
+    color:#dd9933 !important;
+    background:transparent;
+   }
+  .Navbar .leftside{
+      padding: 10px;
+    }
+@media only screen and (max-width: 1024px){
+  .Navbar .rightside .links a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 6px 15px;
+    justify-content: center;
+    }
+  .Navbar .rightside .links a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1rem;
+    border-radius:8px;
+    border: 2px solid #dd9933 ;
+    padding: 6px 15px;
+    justify-content: center;
+    }
+  .Navbar .leftside{
+padding-left: 0px;
+  }
+  .Navbar .rightside{
+    flex: 75%;
+    display: flex;
+    padding-right: 2px;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-items: center;
+  
+  }
+  .btnn {
+    border: 2px solid #dd9933;
+    padding: 10px 20px !important;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+.btnn:hover {
+  color: white !important;
+  background:#dd9933;
+ }
+}
+@media only screen and (max-width: 768px)
+{
+.Navbar .rightside button{
+        display: flex;
+        display: block;
+          }
+      .Navbar .leftside{
+        padding: 10px;
+      }
+      .margin-right{
+        margin-right: 20px;
+      }
+      .Navbar .rightside .links{
+
+        display: none;
+      }
+      .Navbar .rightside #hidden{
+        position:absolute;
+        z-index: 100;
+        left: 0px;
+        top: 80px;
+        height: 500px;
+        max-height: 500px;
+        width: 100%;
+        background-color:black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .Navbar .rightside #hidden a{
+        margin: 10px;
+        font-size: 1.4rem;
+            }
+      }
+    @media  screen and (max-width:376px){
+      /* .Navbar .rightside .links a{
+      font-size: 0.8rem;
+     }  */
+     .hw{
+       height: 100px;
+     }
+          .Navbar .leftside{
+        padding: 0px;
+      }
+    }
+    @media  screen and (max-width:320px){
+
+    .Navbar .rightside #hidden{
+      position:absolute;
+      z-index: 100;
+      left: 0px;
+      top: 80px;
+      height: 500px;
+      max-height: 500px;
+      width: 100%;
+      background-color:black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }

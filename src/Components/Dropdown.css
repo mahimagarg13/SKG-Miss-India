@@ -1,0 +1,29 @@
+.events-submenu {
+    width: 10rem;
+    position: absolute;
+    top: 67px;
+    list-style: none;
+    text-align: start;
+  }
+  
+  .events-submenu li {
+    background: orange;
+    cursor: pointer;
+  }
+  
+  .events-submenu li a:hover {
+    background: orangered;
+  }
+  
+  .events-submenu.clicked {
+    display: none;
+  }
+  
+  .submenu-item {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+  }

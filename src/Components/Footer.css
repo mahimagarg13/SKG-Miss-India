@@ -1,0 +1,101 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    color: white;
+   height: auto;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.background-black{
+    background-color: black;
+}
+.divider-footer{
+    width: 100%;
+    height: auto;
+}
+.iic{
+    border-radius: 100px;
+    background-color: white;
+    font-size: 1.6rem;
+    padding: 2px;
+    margin-right: 10px;
+    color:maroon;
+    margin-bottom: 10px;
+}
+.h-w{
+    height: 120px;
+    width: 120px;
+}
+.mt{
+    margin-top: 117px;
+    width: 15%;
+}
+.one{
+width: 35%;
+align-self: center;
+padding-left: 30px;
+padding-right: 10px;
+}
+.two{
+width: 13%;
+margin-top: 80px;
+text-decoration: none;
+color: white;
+margin-left: 50px;
+}
+.three{
+width: 35%;
+margin-top: 80px;
+color: white;
+padding-left: 40px;
+}
+.lnk a{
+    text-decoration: none;
+    color: white !important;
+}
+
+@media screen and (max-width:768px)
+{
+    .footer{
+                height: auto;
+                width: 100%;
+                flex-direction: column;
+                align-self: left;
+                text-align: left;
+    }
+    .mt{
+        width: 100%;
+        margin-top: 0px;
+        padding-left: 10px;
+    }
+    .one{
+        width: 100%;
+        margin-top: 40px;
+        padding-left: 12px;
+        padding-right: 20px;
+        }
+        .mar{
+            margin-left: 0px;
+        }
+        .two{
+            padding-left: 10px;
+        width: 100%;
+        margin-top: 40px;
+        text-decoration: none;
+        color: white;
+        margin-left: 0px;
+        }
+        .three{
+        width: 100%;
+        margin-top: 40px;
+        color: white;
+        padding-left: 10px;
+        padding-right: 5px;
+        padding-bottom: 20px;
+        }.lnk a{
+            text-decoration: none;
+            color: white !important;
+        }
+}
